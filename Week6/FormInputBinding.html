@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script> 
+
+    
+    
+    
+    
+    
+    <div id="emails">
+        <input v-model="email" placeholder="Email">
+        <p>Email is: {{ email }}</p>
+    </div>
+
+    <script>
+        var email = new Vue({
+                        el: '#emails',
+                        data: {
+                        email: []
+                    }
+        })
+    </script>
+
+    <div id ="passwords">
+        <input v-model="password" placeholder="Password">
+        <p>Password is: {{ password }}</p>
+    </div>
+
+    <script>
+        var password = new Vue({
+                        el: '#passwords',
+                        data: {
+                        password: []
+                    }
+        })
+    </script>
+    
+
+    
+    
+    
+    <p style = "color: purple; text-align:left "> Click to choose your groceries!</p>
+
+    <div id="check">
+        <input type="checkbox" id="potato" value="Potato" v-model="checkedbox">
+        <label for="potato">Potato</label>
+        <input type="checkbox" id="onion" value="Onion" v-model="checkedbox">
+        <label for="onion">Onion</label>
+        <input type="checkbox" id="tomato" value="Tomato" v-model="checkedbox">
+        <label for="tomato">Tomato</label>
+        <input type="checkbox" id="bread" value="Bread" v-model="checkedbox">
+        <label for="bread">Bread</label>
+        <input type="checkbox" id="chocolate" value="Chocolate" v-model="checkedbox">
+        <label for="chocolate">Chocolate</label>
+        <input type="checkbox" id="candy" value="Candy" v-model="checkedbox">
+        <label for="candy">Candy</label>
+        <input type="checkbox" id="nuts" value="Nuts" v-model="checkedbox">
+        <label for="nuts">Nuts</label>
+        <input type="checkbox" id="milk" value="Milk" v-model="checkedbox">
+        <label for="milk">Milk</label>
+        <input type="checkbox" id="cheese" value="Cheese" v-model="checkedbox">
+        <label for="cheese">Cheese</label>
+        
+        <br>
+        <span>You have chosen: {{ checkedbox }}</span>
+    </div>
+
+    
+    <script>
+        var check = new Vue({
+                        el: '#check',
+                        data: {
+                        checkedbox: []
+                    }
+        })
+    </script>
+    
+      
+</html>
