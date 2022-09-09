@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <head>       
         <title> Text Based Adventure </title>
 
@@ -77,4 +78,18 @@
     </p>
 
     <IMG SRC = ""> </IMG>
+    <div id ="names">
+        <input v-model="name" placeholder="Enter your Name">
+        <p>Hi, nice to meet you {{ name }}. Are you ready to begin your adventure?</p>
+    </div>
+
+    <script>
+        var names = new Vue({
+                        el: '#names',
+                        data: {
+                        name: []
+                    }
+        })
+    </script>
+
 </html>
