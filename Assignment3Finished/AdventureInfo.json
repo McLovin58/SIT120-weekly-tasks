@@ -1,0 +1,89 @@
+{
+    "start":{
+        "titletext":"You arrive in a dense forest",
+        "maintext":"You look around but there is nothing here, with no other options you turn around to head back",
+        "imageurl":"https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80",
+        "buttons":{
+            "text":["Back to where you started"],
+            "functions":["fifth"]
+        }
+    },
+    "second":{
+        "titletext":"You awaken on the edge of a forest and mountains",
+        "maintext":"You have nothing on you besides some old worn clothing, barefoot and alone you must make your choice on which direction to go.",
+        "imageurl":"https://cdn.wallpapersafari.com/45/90/kIuDcO.jpg",
+        "buttons":{
+            "text":["Forest","Mountain","Lake"],
+            "functions":["start","fourth","third"]
+        }
+    },
+    "third":{
+        "titletext":"You arrive at a beautiful lake",
+        "maintext":"You take in your sorroundings, despite the situation you find the beauty to be quite breathtaking and can't help but take in the scene for a moment, however you quickly gather yourself and prepare to head back",
+        "imageurl":"https://bcparks.ca/photos/images/0154-00HQLD0001.jpg",
+        "buttons":{
+            "text":["Head back"],
+            "functions":["fifth"]
+        }
+    },
+    "fourth":{
+        "titletext":"You arrive at the foot of the mountain range",
+        "maintext":"You look around and the mountains seem dangerous and risky, you gather your wits and must make a choice, press onwards through the treacherous mountains or head back?",
+        "imageurl":"https://cdnb.artstation.com/p/assets/images/images/008/528/865/large/francesco-ruga-mountain-in-the-night.jpg?1513334255",
+        "buttons":{
+            "text":["Head back","Ascend"],
+            "functions":["second","sixth"]
+        }
+    },
+
+    "fifth":{
+        "titletext":"You arrive back where you began",
+        "maintext":"You look around and ponder which direction to go in next",
+        "imageurl":"https://cdn.wallpapersafari.com/45/90/kIuDcO.jpg",
+        "buttons":{
+            "text":["Forest","Mountain","Lake"],
+            "functions":["start","fourth","third"]
+        }
+    },
+
+
+    "sixth":{
+        "titletext":"You ascend the mountain",
+        "maintext":"After a dangerous climb up the mountain range, you arive at the top just in time to witness the sky light up in a wonderous light show, you notice a campsite in the distance and also a mysterious object in the other direction",
+        "imageurl":"https://www.peregrineadventures.com/blog/wp-content/uploads/2016/03/iceland_aurora_northern_lights_kirkjufell_mountain-1024x683@2x.jpg",
+        "buttons":{
+            "text":["Campsite","Object"],
+            "functions":["seventh","eighth"]
+        }
+    },
+
+    "seventh":{
+        "titletext":"You arrive at the campsite",
+        "maintext":"You quitely make your way to the campsite only to see it is abandoned, curiously you feel like you have been here before, as you walk away you feel a sudden rush of adrenaline hit you as you realise you are falling off the side of a very steep cliff barely a whimper could be let out before you hit the ground... No one could survive such a fall",
+        "imageurl":"https://www.tropicalnorthqueensland.org.au/wp-content/uploads/TheRawPhotographer_BartleFrere.jpg",
+        "buttons":{
+            "text":["Restart?"],
+            "functions":["second"]
+        }
+    },
+
+    "eighth":{
+        "titletext":"You begin making your way for the object",
+        "maintext":"You ascend your way up the steep mountain surface until you are within arms reach of the objectThe sky begins to light up as if to react to your presence to the object. It almost feels like it is calling for you to touch it, with a halted breath you reach your arm out and as you are mere moments away from touching it, the object hums a deep yet familiar hue, a thought crosses your mind What am I doing? ",
+        "imageurl":"https://cdn.bhdw.net/im/blue-and-purple-sky-wallpaper-78541_w635.webp",
+        "buttons":{
+            "text":["Touch Object"],
+            "functions":["ninth"]
+        }
+    },
+
+    "ninth":{
+        "titletext":"You feel light engulf you",
+        "maintext":"as your hand gets closer, almost pulling you towards it, suddenly you awaken in your bed unsure of what just occured, the memory of what you just witnessed fades as if nothing happened at all, but you remember you need to get ready for your hike, you find your hiking gear missing shoes and the rest is all torn and word, curious...",
+        "imageurl":"http://cdn.home-designing.com/wp-content/uploads/2018/08/modern-table-lamps-for-bedroom.jpg",
+        "buttons":{
+            "text":["Restart?"],
+            "functions":["second"]
+        }
+    }
+}
